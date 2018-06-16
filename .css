@@ -1,0 +1,78 @@
+h1 {
+  color: red;
+}
+
+p {
+  font-weight: bold;
+}
+
+#first {
+  font-size: 15pt;
+}
+
+.thick {
+  font-weight: bold;
+}
+
+.alert {
+  color: red;
+}
+
+#box {
+  background: blue;
+}
+
+h1, h2, #box {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+#nav li {
+  background: blue;
+}
+
+#list > li {
+  border: 1px solid black;
+}
+
+h2 ~ p {
+color: black;
+}
+
+h3 + p {
+  color: green;
+}
+
+* {
+  color: orange;
+}
+
+img[alt="Cat"] {
+  border: 1px solid black;
+}
+
+a:link {
+  text-decoration: none;
+}
+
+#kitten {
+  position: absolute;
+  top: 50%;
+  left: 50%
+  width 120px
+  height 120px
+  margin: -60px 0 0 -60px
+  ;
+}
+
+.image {
+  -webkit-animation:spin 4s linear infinite;
+  -moz-animation:spin 4s linear infinite;
+}
+@-moz-keyframes spin {100% { - moz-transform: rotate (360deg);
+} }
+
+  
+}
+
+
+
